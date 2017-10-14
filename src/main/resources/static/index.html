@@ -1,93 +1,96 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Hello AngularJS</title>
-        <style type="text/css">
+<head>
+    <title>Hello AngularJS</title>
+    <style type="text/css">
         [ng\:cloak], [ng-cloak], .ng-cloak {
           display: none !important;
 
         }
-        </style>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    </style>
 
-        <script src="js/angular-bootstrap.js" type="text/javascript"></script>
-        <script src="js/angular.js" type="text/javascript"></script>
-        <script src="js/hello.js"></script>
-    </head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
-    <body ng-app="">
+    <script src="js/angular-bootstrap.js" type="text/javascript"></script>
+    <script src="js/angular.js" type="text/javascript"></script>
+    <script src="js/hello.js"></script>
+</head>
 
-        <div class="container-fluid">
+<body ng-app="">
 
-            <div class="row">
-                <div id="top-bar" class="col-md-12">
-                    <h2>FitCity</h2>
-                </div>
-            </div>
+<div class="container-fluid">
 
-            <div class="row">
-                <div id="left-side-bar" class="col-md-3">
+    <div class="row">
+        <div id="top-bar" class="col-md-12">
+            <h2>FitCity</h2>
+        </div>
+    </div>
 
-                    <table class="table">
-                        <tr>
-                            <th>Area</th>
-                            <th>Score</th>
-                            <th>Calories Burnt</th>
-                        </tr>
-                        <tr>
-                            <td>Bedminster</td>
-                            <td>3445</td>
-                            <td>112,322</td>
-                        </tr>
-                        <tr>
-                            <td>Clifton</td>
-                            <td>490</td>
-                            <td>23,555</td>
-                        </tr>
-                        <tr>
-                            <td>Yate</td>
-                            <td>23</td>
-                            <td>2,390</td>
-                        </tr>
-                    </table>
+    <div class="row">
+        <div id="left-side-bar" class="col-md-3">
 
-                </div>
-
-                <div id="middle" class="col-md-6">
-                    <div align="center">
-                        <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/wards/map/?sort=-objectid&location=12,51.42642,-2.6314&basemap=jawg.streets&static=false&datasetcard=false" width="750" height="400" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-                <div id="right-side-bar" class="col-md-3">
-
-                    <table class="table">
-                        <tr>
-                            <th>Group</th>
-                            <th>Score</th>
-                            <th>Calories Burnt</th>
-                        </tr>
-                        <tr>
-                            <td>Sea Mills Youth Club</td>
-                            <td>90</td>
-                            <td>10,034</td>
-                        </tr>
-                        <tr>
-                            <td>Fishponds Bingo Ladies</td>
-                            <td>43</td>
-                            <td>5,903</td>
-                        </tr>
-                        <tr>
-                            <td>Team Potato</td>
-                            <td>21</td>
-                            <td>300</td>
-                        </tr>
-                    </table>
-
-                </div>
-            </div>
+            <table class="table">
+                <tr>
+                    <th>Area</th>
+                    <th>Score</th>
+                    <th>Calories Burnt</th>
+                </tr>
+                <tr>
+                    <td>Bedminster</td>
+                    <td>3445</td>
+                    <td>112,322</td>
+                </tr>
+                <tr>
+                    <td>Clifton</td>
+                    <td>490</td>
+                    <td>23,555</td>
+                </tr>
+                <tr>
+                    <td>Yate</td>
+                    <td>23</td>
+                    <td>2,390</td>
+                </tr>
+            </table>
 
         </div>
-    </body>
+
+        <div id="middle" class="col-md-6">
+            <div align="center">
+                <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/wards/map/?sort=-objectid&location=12,51.42642,-2.6314&basemap=jawg.streets&static=false&datasetcard=false"
+                        width="750" height="400" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <div id="right-side-bar" class="col-md-3">
+
+            <table class="table">
+                <tr>
+                    <th>Group</th>
+                    <th>Score</th>
+                    <th>Calories Burnt</th>
+                </tr>
+                <tr>
+                    <td>Sea Mills Youth Club</td>
+                    <td>90</td>
+                    <td>10,034</td>
+                </tr>
+                <tr>
+                    <td>Fishponds Bingo Ladies</td>
+                    <td>43</td>
+                    <td>5,903</td>
+                </tr>
+                <tr>
+                    <td>Team Potato</td>
+                    <td>21</td>
+                    <td>300</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+</body>
 </html>

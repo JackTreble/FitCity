@@ -12,7 +12,7 @@ public class LeaderboardGenerator {
     private static final int max = 10000;
 
 
-    public static List<LeaderboardPosition> generateLeaderboard(){
+    public static List<LeaderboardPosition> generateLeaderboard() {
 
 
         List<String> wards = Arrays.asList("Windmill Hill",
@@ -52,7 +52,7 @@ public class LeaderboardGenerator {
 
 
         List<LeaderboardPosition> lbps = new ArrayList<>();
-        for(String ward : wards){
+        for (String ward : wards) {
             lbps.add(new LeaderboardPosition(ward, ThreadLocalRandom.current().nextInt(min, max + 1)));
         }
 
